@@ -1,0 +1,8 @@
+
+s
+java:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(İËöĞ8ßòÙ«‚/
+
+java:S1450"bRemove the "mAdvancedNativeView" field and declare it as a local variable in the relevant methods.(ªè«8ë¿é«‚/
+T
+java:S1068"7Remove this unused "mAdvancedNativeView" private field.(ªè«8ë¿é«‚/
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(İâãŒıÿÿÿÿ

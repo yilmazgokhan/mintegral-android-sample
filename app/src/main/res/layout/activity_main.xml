@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loadRewarded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Load Rewarded" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/showRewarded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Show Rewarded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerStaticInterstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loadStaticInterstitial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Load Static Interstitial" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/showStaticInterstitial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Show Static Interstitial" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerInterstitialVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loadInterstitialVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Load Interstitial Video" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/showInterstitialVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Show Interstitial Video" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerInteractive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loadInteractive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Load Interactive" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.02" />
+
+        <Button
+            android:id="@+id/showInteractive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Show Interactive" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/openSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Splash Ad Screen" />
+
+    <Button
+        android:id="@+id/openAutoRendingNative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Auto Rending Native Screen" />
+
+    <Button
+        android:id="@+id/openBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Banner" />
+
+
+</LinearLayout>
